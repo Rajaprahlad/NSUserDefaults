@@ -11,5 +11,8 @@
 @interface ViewController : UIViewController
 
 
+- (IBAction)SaveButton:(id)sender;
+@property (weak, nonatomic) IBOutlet UILabel *Label;
+
 @end
 
